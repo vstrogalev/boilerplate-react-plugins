@@ -1,0 +1,9 @@
+@import url('../../styles/index.scss');
+@import url('../../styles/variables.scss');
+
+.storybookContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}

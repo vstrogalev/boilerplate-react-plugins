@@ -19,3 +19,4 @@ build
 dist
 .yarn
 .storybook
+*storybook.log
