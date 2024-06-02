@@ -1,5 +1,5 @@
 :root {
-	// colors
+	/* colors */
 	--accent: #ea5a0a;
 	--accent-hard: #aa4000;
 	--accent-light: #cc4d00;
@@ -9,7 +9,7 @@
 	--light-primary: #ffffff;
 	--light-secondary: #f1f5f9;
 
-  	// text colors
+  /* text colors */
 	--color-text-primary: var(--dark-primary);
 	--color-text-secondary: var(--dark-secondary);
 	--color-text-secondary-light: #7b878f;
@@ -23,7 +23,7 @@
 	--color-text-link-hard: #006b83;
 	--color-text-error: var(--error);
 
-	// bg colors
+	/* bg colors */
 	--color-bg-primary: var(--light-primary);
 	--color-bg-secondary: #7dcdd7;
 	--color-bg-dark-primary: var(--dark-primary);
@@ -32,34 +32,34 @@
 	--color-bg-light-primary: #f8fbff;
 	--color-bg-light-secondary: var(--light-secondary);
 
-	// button colors
+	/* button colors */
 	--color-btn-blue: #54a9ea;
 	--color-btn-primary: var(--accent);
 	--color-btn-primary-light: var(--accent-light);
 	--color-btn-primary-dark: var(--accent-hard);
 	--color-btn-secondary: var(--dark-primary);
 
-	// inputs bg
+	/* inputs bg */
 	--color-bg-input-default: var(--light-secondary);
 	--color-bg-input-hover: #e0e9f2;
 	--color-bg-autocomplete: #fcf3c5;
 	--color-error-border: var(--error);
 
-	// font numbers
+	/* font numbers */
 	--font-family-numbers: 'Cormorant Garamond', Arial, Helvetica, sans-serif;
 
-	// box-shadows
+	/* box-shadows */
 	--table-drop-down-box-shadow: rgba(0, 77, 95, 0.24);
 
-  // font
+  /* font */
   --font-family-main: 'Open sans', Arial, Helvetica, sans-serif;
 
-	// font wiegth
+	/* font wiegth */
 	--font-weigth-bold: 700;
 	--font-weigth-medium: 500;
 	--font-weigth-regular: 400;
 
-	// font xxxs
+	/* font xxxs */
 	--font-size-xxxs: 12px;
 	--font-line-xxxs: 16px;
 	--font-xxxs-bold: var(--font-weigth-bold) var(--font-size-xxxs) /

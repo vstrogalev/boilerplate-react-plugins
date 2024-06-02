@@ -17,6 +17,13 @@
 yarn storybook
 ```
 
+#### to create components
+```
+yarn component componenName
+
+yarn page pageName
+```
+
 #### stylelint:
 ```
 yarn style

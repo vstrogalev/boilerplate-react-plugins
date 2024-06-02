@@ -1,38 +1,41 @@
 .button {
-	margin: 0;
-	padding: calc(var(--button-padding-vert) - var(--button-padding-offset))
-		calc(var(--button-padding-horiz) - var(--button-padding-offset));
-	border-radius: 6px;
-	font: var(--font-xxxs-bold);
-	border: none;
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	justify-content: center;
-	background: var(--button-background);
-	color: var(--button-text);
-	outline: none;
-
 	--button-padding-horiz: 32px;
 	--button-padding-vert: 20px;
-	--button-padding-offset: 0px;
+	--button-padding-offset: 0;
 	--counter-text: var(--button-background);
 	--counter-background: var(--button-text);
 	--waiting-color: var(--button-text);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: calc(var(--button-padding-vert) - var(--button-padding-offset))
+		calc(var(--button-padding-horiz) - var(--button-padding-offset));
+	color: var(--button-text);
+	font: var(--font-xxxs-bold);
+	background: var(--button-background);
+	border: none;
+	border-radius: 6px;
+	outline: none;
 }
 
 .button[data-count]::after {
-	content: attr(data-count);
+	min-width: 7px;
+	margin-left: 8px;
+	padding: 0 5px;
+	color: var(--counter-text);
 	font: inherit;
 	background: var(--counter-background);
-	color: var(--counter-text);
-	padding: 0 5px;
 	border-radius: 18px;
-	margin-left: 8px;
-	min-width: 7px;
+	content: attr(data-count);
 }
 
-.button:not(:disabled):not(:active):focus {
+.button:disabled {
+	opacity: 0.6;
+}
+
+.button:not(:disabled, :active):focus {
 	--button-padding-offset: 2px;
 	border: 2px solid var(--button-border-focus);
 }
@@ -46,14 +49,9 @@
 	cursor: pointer;
 }
 
-.button:disabled {
-	opacity: 0.6;
-}
-
 .rounded {
 	--button-padding-horiz: 24px;
 	--button-padding-vert: 12px;
-
 	border-radius: calc(var(--button-padding-vert) * 2);
 }
 
@@ -83,17 +81,14 @@
 
 .colorOutline {
 	--button-padding-offset: 1px;
-	border: 1px solid var(--color-text-nav-secondary);
-
 	--button-background: transparent;
 	--button-background-active: transparent;
 	--button-background-hover: transparent;
 	--button-border-focus: var(--color-text-secondary-light);
 	--button-text: var(--color-text-primary);
-
 	--counter-text: var(--color-text-nav-primary);
-
 	--waiting-color: var(--color-text-nav-secondary);
+	border: 1px solid var(--color-text-nav-secondary);
 }
 
 .colorOutline:not(:disabled):active {
