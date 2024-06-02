@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import type { Meta, StoryObj } from '@storybook/react';
-import {Button} from '.';
+import { Button } from '.';
 import { ButtonColor, ButtonType } from './types';
 
 const meta: Meta<typeof Button> = {
@@ -85,7 +85,6 @@ export const PrimaryDisabled: Story = {
 	},
 };
 
-
 export const PrimaryWithCounter: Story = {
 	args: {
 		color: ButtonColor.primary,
@@ -124,6 +123,6 @@ export const OutlineWithIconMessageAndCounter: Story = {
 		color: ButtonColor.outline,
 		countAccent: true,
 		count: 1,
-		rounded: true
+		rounded: true,
 	},
 };

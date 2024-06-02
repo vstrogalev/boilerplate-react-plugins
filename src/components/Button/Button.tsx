@@ -39,8 +39,7 @@ export const Button: FC<ButtonProps> = ({
 			type={type}
 			disabled={disabled}
 			data-count={count}
-			onClick={onClick}
-		>
+			onClick={onClick}>
 			{children}
 		</button>
 	);

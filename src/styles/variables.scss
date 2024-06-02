@@ -9,7 +9,7 @@
 	--light-primary: #ffffff;
 	--light-secondary: #f1f5f9;
 
-  /* text colors */
+	/* text colors */
 	--color-text-primary: var(--dark-primary);
 	--color-text-secondary: var(--dark-secondary);
 	--color-text-secondary-light: #7b878f;
@@ -46,13 +46,13 @@
 	--color-error-border: var(--error);
 
 	/* font numbers */
-	--font-family-numbers: 'Cormorant Garamond', Arial, Helvetica, sans-serif;
+	--font-family-numbers: 'Cormorant Garamond', arial, helvetica, sans-serif;
 
 	/* box-shadows */
-	--table-drop-down-box-shadow: rgba(0, 77, 95, 0.24);
+	--table-drop-down-box-shadow: rgb(0 77 95 / 24%);
 
-  /* font */
-  --font-family-main: 'Open sans', Arial, Helvetica, sans-serif;
+	/* font */
+	--font-family-main: 'Open sans', arial, helvetica, sans-serif;
 
 	/* font wiegth */
 	--font-weigth-bold: 700;
@@ -69,7 +69,7 @@
 	--font-xxxs-regular: var(--font-weigth-regular) var(--font-size-xxxs) /
 		var(--font-line-xxxs) var(--font-family-main);
 
-	// font xxs
+	/* font xxs */
 	--font-size-xxs: 14px;
 	--font-line-xxs: 16px;
 	--font-xxs-bold: var(--font-weigth-bold) var(--font-size-xxs) /
@@ -79,7 +79,7 @@
 	--font-xxs-regular: var(--font-weigth-regular) var(--font-size-xxs) /
 		var(--font-line-xxs) var(--font-family-main);
 
-	// font xs
+	/* font xs */
 	--font-size-xs: 14px;
 	--font-line-xs: 20px;
 	--font-xs-bold: var(--font-weigth-bold) var(--font-size-xs) /
@@ -89,7 +89,7 @@
 	--font-xs-regular: var(--font-weigth-regular) var(--font-size-xs) /
 		var(--font-line-xs) var(--font-family-main);
 
-	// font s (h5, p1)
+	/* font s (h5, p1) */
 	--font-size-s: 16px;
 	--font-line-s: 24px;
 	--font-s-bold: var(--font-weigth-bold) var(--font-size-s) / var(--font-line-s)
@@ -99,7 +99,7 @@
 	--font-s-regular: var(--font-weigth-regular) var(--font-size-s) /
 		var(--font-line-s) var(--font-family-main);
 
-	// font m (h3 small, h4)
+	/* font m (h3 small, h4) */
 	--font-size-m: 20px;
 	--font-line-m: 24px;
 	--font-m-bold: var(--font-weigth-bold) var(--font-size-m) / var(--font-line-m)
@@ -109,7 +109,7 @@
 	--font-m-regular: var(--font-weigth-regular) var(--font-size-m) /
 		var(--font-line-m) var(--font-family-main);
 
-	// font l ( h1 small, h3 large)
+	/* font l ( h1 small, h3 large) */
 	--font-size-l: 24px;
 	--font-line-l: 28px;
 	--font-l-bold: var(--font-weigth-bold) var(--font-size-l) / var(--font-line-l)
@@ -119,7 +119,7 @@
 	--font-l-regular: var(--font-weigth-regular) var(--font-size-l) /
 		var(--font-line-l) var(--font-family-main);
 
-	// font xl (h2 small)
+	/* font xl (h2 small) */
 	--font-size-xl: 24px;
 	--font-line-xl: 32px;
 	--font-xl-bold: var(--font-weigth-bold) var(--font-size-xl) /
@@ -129,7 +129,7 @@
 	--font-xl-regular: var(--font-weigth-regular) var(--font-size-xl) /
 		var(--font-line-xl) var(--font-family-main);
 
-	// font xxl (h2 large)
+	/* font xxl (h2 large) */
 	--font-size-xxl: 32px;
 	--font-line-xxl: 40px;
 	--font-xxl-bold: var(--font-weigth-bold) var(--font-size-xxl) /
@@ -139,7 +139,7 @@
 	--font-xxl-regular: var(--font-weigth-regular) var(--font-size-xxl) /
 		var(--font-line-xxl) var(--font-family-main);
 
-	// font xxxl (h1 large)
+	/* font xxxl (h1 large) */
 	--font-size-xxxl: 40px;
 	--font-line-xxxl: 48px;
 	--font-xxxl-bold: var(--font-weigth-bold) var(--font-size-xxxl) /
@@ -149,11 +149,11 @@
 	--font-xxxl-regular: var(--font-weigth-regular) var(--font-size-xxxl) /
 		var(--font-line-xxxl) var(--font-family-main);
 
-	// font xxxxl (large)
+	/* font xxxxl (large) */
 	--font-size-xxxxl: 48px;
 	--font-line-xxxxl: 60px;
 
-	// font small-3xl
+	/* font small-3xl */
 	--font-line-small-3xl: 40px;
 	--font-small-3xl-bold: var(--font-weigth-bold) var(--font-size-xxxl) /
 		var(--font-line-small-3xl) var(--font-family-main);

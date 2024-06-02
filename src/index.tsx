@@ -13,11 +13,9 @@ const root = createRoot(domNode);
 
 const App = () => {
 	return (
-		<div
-			className={clsx(styles.main)}
-      >
+		<div className={clsx(styles.main)}>
 			Hello
-      <Button color={ButtonColor.blue}>Click me</Button>
+			<Button color={ButtonColor.blue}>Click me</Button>
 		</div>
 	);
 };
